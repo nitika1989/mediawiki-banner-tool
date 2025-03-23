@@ -1,3 +1,5 @@
+**Title: 🟢 MediaWiki Banner Creation Tool**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,57 +16,57 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**📝 1. Project Overview**
 
-### `npm run build`
+# MediaWiki Banner Creation Tool
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is part of my Outreachy contribution to build a dynamic **MediaWiki Frontend Web Application**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎯 Objectives:
+1. Set up the infrastructure for a Frontend Web Application using React.
+2. Implement dynamic banner customization using JavaScript.
+3. Use Git for version control and push code to a public GitHub repository.
+4. Enable users to modify banner properties without reloading the page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🛠️ Tools Used:
+- **Frontend Framework**: React (via Create React App)
+- **Version Control**: Git & GitHub
+- **Testing Framework**: Jest (for unit testing)
+- **Development Environment**: VS Code
+- **PAWS Notebook**: For documenting my progress
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Step 1: Set up a React project
+npx create-react-app banner-tool
 
-## Learn More
+# Step 2: Navigate to project directory
+cd banner-tool
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Step 3: Initialize Git and link to GitHub
+git init
+git remote add origin https://github.com/yourusername/banner-tool.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Step 4: Start the development server
+npm start
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📈 Progress So Far:
+- [x] Set up React infrastructure with `create-react-app`.
+- [x] Initialized Git and linked to GitHub repository.
+- [x] Implemented a dynamic banner component.
+- [x] Created a form to customize the banner text and color.
+- [ ] Add unit tests for the banner component.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🚧 Challenges Faced:
+1. **Error: Cannot push to GitHub (non-fast-forward error)**  
+   ✅ Solution: Used `git pull origin main --rebase` to sync with the remote branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. **Script Execution Disabled**  
+   ✅ Solution: Enabled script execution by running:
+  
