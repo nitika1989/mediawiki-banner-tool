@@ -62,6 +62,30 @@ npm start
 - [ ] Add unit tests for the banner component.
 
 
+ ** Key Features Implemented**
+Dynamic Banner Customization
+
+Users can change:
+Background color of the banner.
+Banner text in real time.
+Image displayed on the banner.
+Changes are reflected instantly without reloading the page.
+Responsive Design
+
+A full-width banner adapts seamlessly to any screen size, ensuring an optimal display on desktops, tablets, and mobile devices.
+Interactive Form
+
+Users interact with an intuitive form to adjust banner properties:
+Text input to change the message.
+Color picker for the background.
+Image URL input to swap banner visuals.
+Modern Tech Stack
+
+Built using React for efficient UI rendering and state management.
+Supports unit testing with Jest and React Testing Library to ensure code quality.
+
+
+
 
 ## 🚧 Challenges Faced:
 1. **Error: Cannot push to GitHub (non-fast-forward error)**  
