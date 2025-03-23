@@ -93,4 +93,7 @@ Supports unit testing with Jest and React Testing Library to ensure code quality
 
 2. **Script Execution Disabled**  
    ✅ Solution: Enabled script execution by running:
+   
+   Notebook Link
+https://hub-paws.wmcloud.org/user/Nitika%20Vasishtha/lab/tree/MediaWiki.ipynb
   
